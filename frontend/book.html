@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .book-container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .book-container img {
+            max-width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="book-container">
+        <img id="bookCover" src="" alt="Book Cover">
+        <div>
+            <h1 id="bookTitle"></h1>
+            <h3 id="bookAuthor"></h3>
+            <p id="bookDescription"></p>
+        </div>
+    </div>
+
+    <script src="script/book.js"></script>
+</body>
+</html>
